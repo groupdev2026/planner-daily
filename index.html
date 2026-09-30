@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Noloshaada - Nidaamka Qorsheynta</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+    <div class="logo">
+
+        <div class="logo-icon">
+            ☯
+        </div>
+
+        <div>
+            <h2>Noloshaada</h2>
+            <span>Nidaam • Himilo • Guul</span>
+        </div>
+
+    </div>
+
+
+    <nav class="menu">
+
+        <button class="active">
+            ⌂ <span>Dashboard</span>
+        </button>
+
+        <button>
+            ▣ <span>Jadwal Maalinle</span>
+        </button>
+
+        <button>
+            ▦ <span>Jadwal Isbuucle</span>
+        </button>
+
+        <button>
+            ▣ <span>Jadwal Bile</span>
+        </button>
+
+        <button>
+            ☪ <span>Qayb Diin</span>
+        </button>
+
+        <button>
+            ▣ <span>Qayb Dhaqaale</span>
+        </button>
+
+        <button>
+            ▤ <span>Waxyaabaha Isbaro</span>
+        </button>
+
+        <button>
+            ! <span>Qaladaadkeyga</span>
+        </button>
+
+        <button>
+            ♨ <span>Alla & Sheekeysiga</span>
+        </button>
+
+        <button>
+            ▣ <span>Jadwalka Waxbarasho</span>
+        </button>
+
+        <button>
+            ⚙ <span>Settings</span>
+        </button>
+
+    </nav>
+
+</aside>
+
+
+<main class="main">
+
+    <header class="topbar">
+
+        <input
+            class="search"
+            type="text"
+            placeholder="🔍 Raadi wax..."
+        >
+
+        <div class="profile">
+
+            <div class="profile-icon">
+                👤
+            </div>
+
+            <div>
+                <small>Ku soo dhowow</small>
+                <strong>Noloshaada</strong>
+            </div>
+
+            <span>⌄</span>
+
+        </div>
+
+        <button
+            id="themeToggle"
+            class="theme-toggle"
+            type="button"
+            aria-label="Beddel Dark iyo Light Mode"
+            title="Light Mode"
+        >
+            ☀️
+        </button>
+
+    </header>
+
+
+    <section class="content">
+
+        <div class="hero">
+
+            <h1>
+                ☀️ Subax wanaagsan!
+            </h1>
+
+            <p>
+                “Maanta waa fursad cusub, isticmaal si xikmad leh.”
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <button class="hero-btn green">
+                    🕌 Diin
+                </button>
+
+                <button class="hero-btn orange">
+                    💰 Dhaqaale
+                </button>
+
+                <button class="hero-btn blue">
+                    📚 Waxbarasho
+                </button>
+
+                <button class="hero-btn purple">
+                    ✨ Nolol Wanaag
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="dashboard-grid">
+
+
+            <!-- QAYBTA KOOWAAD -->
+
+            <div class="column">
+
+
+                <!-- JADWAL MAALINLE -->
+
+                <div class="card">
+
+                    <div class="card-header blue-header">
+
+                        <span>
+                            📅 Jadwal Maalinle
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <div class="task-input">
+
+                            <input
+                                id="taskInput"
+                                type="text"
+                                placeholder="Ku qor hawsha aad qabanayso..."
+                            >
+
+                            <button class="add-task">
+                                Ku dar
+                            </button>
+
+                        </div>
+
+
+                        <div id="taskList">
+
+                            <div class="task completed">
+
+                                <input
+                                    type="checkbox"
+                                    checked
+                                >
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Qur'aan & Ducada Subax
+                                    </strong>
+
+                                    <span>
+                                        05:30 - 06:30
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task completed">
+
+                                <input
+                                    type="checkbox"
+                                    checked
+                                >
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Salaadda Subax
+                                    </strong>
+
+                                    <span>
+                                        06:30 - 07:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task completed">
+
+                                <input
+                                    type="checkbox"
+                                    checked
+                                >
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Akhris Qur'aan
+                                    </strong>
+
+                                    <span>
+                                        07:00 - 08:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Waxbarasho / Barashada Koorsada
+                                    </strong>
+
+                                    <span>
+                                        08:00 - 11:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Nasasho
+                                    </strong>
+
+                                    <span>
+                                        11:00 - 11:30
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Shaqo / Hawlaha Gaarka ah
+                                    </strong>
+
+                                    <span>
+                                        11:30 - 02:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Salaadda Duhur
+                                    </strong>
+
+                                    <span>
+                                        02:00 - 02:30
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Cunto & Nasasho
+                                    </strong>
+
+                                    <span>
+                                        02:30 - 04:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Waxbarasho / Akhris
+                                    </strong>
+
+                                    <span>
+                                        04:00 - 06:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Jimicsi / Ciyaar
+                                    </strong>
+
+                                    <span>
+                                        06:00 - 07:00
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Salaadda Maqrib
+                                    </strong>
+
+                                    <span>
+                                        07:00 - 07:30
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+
+                            <div class="task">
+
+                                <input type="checkbox">
+
+                                <div class="task-info">
+
+                                    <strong>
+                                        Qur'aan & Xusuusin
+                                    </strong>
+
+                                    <span>
+                                        07:30 - 08:30
+                                    </span>
+
+                                </div>
+
+                                <button class="delete">
+                                    🗑
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QALADAADKEYGA -->
+
+                <div class="card">
+
+                    <div class="card-header purple-header">
+
+                        <span>
+                            ⚠️ Qaladaadkeyga
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <div class="task-input">
+
+                            <input
+                                type="text"
+                                placeholder="Qaladaadkeyga maanta..."
+                            >
+
+                            <button class="add-task">
+                                Ku dar
+                            </button>
+
+                        </div>
+
+
+                        <ul class="check-list">
+
+                            <li class="done">
+                                Waqti lumis
+                            </li>
+
+                            <li>
+                                Dawaakhad
+                            </li>
+
+                            <li>
+                                Khalad qorshe
+                            </li>
+
+                            <li>
+                                Dhacdo xanaaqa
+                            </li>
+
+                            <li>
+                                Kale
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- QAYBTA LABAAD -->
+
+            <div class="column">
+
+
+                <!-- JADWAL ISBUUCLE -->
+
+                <div class="card">
+
+                    <div class="card-header green-header">
+
+                        <span>
+                            📅 Jadwal Isbuucle
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Isniin
+                            </span>
+
+                            <span class="schedule-text">
+                                Waxbarasho, Shaqo, Diin
+                            </span>
+
+                        </div>
+
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Talaado
+                            </span>
+
+                            <span class="schedule-text">
+                                Waxbarasho, Dhaqaale, Isbarin
+                            </span>
+
+                        </div>
+
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Arbaco
+                            </span>
+
+                            <span class="schedule-text">
+                                Waxbarasho, Jimicsi, Diin
+                            </span>
+
+                        </div>
+
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Khamiis
+                            </span>
+
+                            <span class="schedule-text">
+                                Waxbarasho, Qoys, Shaqo
+                            </span>
+
+                        </div>
+
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Jimco
+                            </span>
+
+                            <span class="schedule-text">
+                                Diin, Nasasho, Akhris
+                            </span>
+
+                        </div>
+
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Sabti
+                            </span>
+
+                            <span class="schedule-text">
+                                Waxbarasho, Qorshe, Isbarin
+                            </span>
+
+                        </div>
+
+
+                        <div class="week-row">
+
+                            <span class="day">
+                                Axad
+                            </span>
+
+                            <span class="schedule-text">
+                                Nasasho, Qoys, Diin
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DIIN -->
+
+                <div class="card">
+
+                    <div class="card-header red-header">
+
+                        <span>
+                            🕌 Qayb Diin
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <ul class="check-list">
+
+                            <li>
+                                Salaadaha waqtigooda
+                            </li>
+
+                            <li>
+                                Qur'aan akhris
+                            </li>
+
+                            <li>
+                                Cilmiga diinta
+                            </li>
+
+                            <li>
+                                Ducada & Istighfaar
+                            </li>
+
+                            <li>
+                                Akhris kitaab diini ah
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ALLA & SHEEKEYSIGA -->
+
+                <div class="card">
+
+                    <div class="card-header cyan-header">
+
+                        <span>
+                            🤲 Alla & Sheekeysiga
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <textarea
+                            class="note-input"
+                            placeholder="Waxyaabihii maanta dhacay..."
+                        ></textarea>
+
+                        <button class="save-btn">
+                            Ku dar
+                        </button>
+
+
+                        <ul class="check-list">
+
+                            <li>
+                                Waan u mahadceliyay
+                            </li>
+
+                            <li>
+                                Waxaan ka baryay
+                            </li>
+
+                            <li>
+                                Waxaan la wadaagay
+                            </li>
+
+                            <li>
+                                Waxaan dareemay
+                            </li>
+
+                            <li>
+                                Kale
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- QAYBTA SADDEXAAD -->
+
+            <div class="column">
+
+
+                <!-- JADWAL BILE -->
+
+                <div class="card">
+
+                    <div class="card-header purple-header">
+
+                        <span>
+                            📅 Jadwal Bile
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="month-head">
+
+                        <span>‹</span>
+
+                        <strong>
+                            Abriil 2025
+                        </strong>
+
+                        <span>›</span>
+
+                    </div>
+
+
+                    <div class="calendar">
+
+                        <div>In</div>
+                        <div>T</div>
+                        <div>Ar</div>
+                        <div>Kh</div>
+                        <div>Jim</div>
+                        <div>Sab</div>
+                        <div>Ax</div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DHAQALE -->
+
+                <div class="card">
+
+                    <div class="card-header orange-header">
+
+                        <span>
+                            💰 Qayb Dhaqaale
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <ul class="check-list">
+
+                            <li>
+                                Kharashyada qoyska
+                            </li>
+
+                            <li>
+                                Kayd dhaqaale
+                            </li>
+
+                            <li>
+                                Shaqo / Ganacsi
+                            </li>
+
+                            <li>
+                                Maalgashi
+                            </li>
+
+                            <li>
+                                Bixinta deynta
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <!-- WAXYAABAHA ISBARO -->
+
+                <div class="card">
+
+                    <div class="card-header blue-header">
+
+                        <span>
+                            📚 Waxyaabaha Isbaro
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <textarea
+                            class="note-input"
+                            placeholder="Waxyaabaha aad baratay maanta..."
+                        ></textarea>
+
+                        <button class="save-btn">
+                            Ku dar
+                        </button>
+
+
+                        <ul class="check-list">
+
+                            <li class="done">
+                                Waxaan bartay cashar cusub
+                            </li>
+
+                            <li class="done">
+                                Waxaan fahmay fikrad cusub
+                            </li>
+
+                            <li>
+                                Maxaa iga cusbaa?
+                            </li>
+
+                            <li>
+                                Maxaan ka faa'iiday?
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <!-- JADWALKA WAXBARASHO -->
+
+                <div class="card">
+
+                    <div class="card-header pink-header">
+
+                        <span>
+                            📖 Jadwalka Waxbarasho
+                        </span>
+
+                        <button class="add-btn">
+                            +
+                        </button>
+
+                    </div>
+
+
+                    <div class="card-body">
+
+                        <div class="study-list">
+
+                            <div class="study-item">
+
+                                <span>
+                                    Barashada Qur'aan
+                                </span>
+
+                                <strong>
+                                    08:00 - 09:00
+                                </strong>
+
+                            </div>
+
+
+                            <div class="study-item">
+
+                                <span>
+                                    Af-Soomaali
+                                </span>
+
+                                <strong>
+                                    09:00 - 10:00
+                                </strong>
+
+                            </div>
+
+
+                            <div class="study-item">
+
+                                <span>
+                                    Xisaab
+                                </span>
+
+                                <strong>
+                                    10:00 - 11:00
+                                </strong>
+
+                            </div>
+
+
+                            <div class="study-item">
+
+                                <span>
+                                    Ingiriisi
+                                </span>
+
+                                <strong>
+                                    04:00 - 05:00
+                                </strong>
+
+                            </div>
+
+
+                            <div class="study-item">
+
+                                <span>
+                                    Teknoolojiyad
+                                </span>
+
+                                <strong>
+                                    05:00 - 06:00
+                                </strong>
+
+                            </div>
+
+
+                            <div class="study-item">
+
+                                <span>
+                                    Koorsada Online
+                                </span>
+
+                                <strong>
+                                    06:00 - 07:00
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- QAYBTA AFARAAD -->
+
+            <div class="column">
+
+
+                <!-- CLOCK -->
+
+                <div class="card clock-card">
+
+                    <div
+                        class="clock"
+                        id="clock"
+                    >
+                        10:24 AM
+                    </div>
+
+                    <div
+                        class="date-text"
+                        id="date"
+                    >
+                        Sabti, 26 Abriil 2025
+                    </div>
+
+                    <p>
+                        📅 Maanta waa maalintii!
+                    </p>
+
+                </div>
+
+
+                <!-- CALENDAR -->
+
+                <div class="card">
+
+                    <div class="month-head">
+
+                        <span>‹</span>
+
+                        <strong>
+                            Abriil 2025
+                        </strong>
+
+                        <span>›</span>
+
+                    </div>
+
+
+                    <div class="calendar">
+
+                        <div>In</div>
+                        <div>T</div>
+                        <div>Ar</div>
+                        <div>Kh</div>
+                        <div>Jim</div>
+                        <div>Sab</div>
+                        <div>Ax</div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROGRESS -->
+
+                <div class="card progress-box">
+
+                    <div class="card-header green-header">
+
+                        <span>
+                            📊 Horumarka Maanta
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-circle">
+                        0%
+                    </div>
+
+                    <p>
+                        Hawlahaan dhammeeyay
+                    </p>
+
+                    <p>
+                        0 / 0
+                    </p>
+
+                </div>
+
+
+                <!-- XASUUSIN -->
+
+                <div class="card quote">
+
+                    <div class="quote-icon">
+                        💡
+                    </div>
+
+                    <h3>
+                        Xasuusin
+                    </h3>
+
+                    <p>
+                        “Qofkii qorshe leh, waa qofka guuleysta.”
+                    </p>
+
+                    <small>
+                        🌱 Noloshaada
+                    </small>
+
+                </div>
+
+
+                <!-- XIRIIR DEGDEG AH -->
+
+                <div class="card quote">
+
+                    <div class="quote-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        Xiriir Degdeg ah
+                    </h3>
+
+                    <ul class="check-list">
+
+                        <li>
+                            📗 Qur'aan
+                        </li>
+
+                        <li>
+                            🔵 Ducada
+                        </li>
+
+                        <li>
+                            🟡 Dhiirigelin
+                        </li>
+
+                        <li>
+                            🟣 Taageero
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="bottom-message">
+
+            <span>
+                ⭐ Nidaam iyo Qorshe = Natiijo Wanaagsan
+            </span>
+
+            <span>
+                📊 “Waa inaad maanta ka fiican tahay shalay.”
+            </span>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
